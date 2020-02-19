@@ -1,0 +1,40 @@
+
+
+<div class="boxChat">
+  <a href="/themes">
+    <button id="backBTN">Back to themes</button></a>
+  <div class="container" id="cont">
+    <button (click)="Show()" class="answer">+Answer</button>
+    
+    <div *ngFor="let mas of chat.topicChat; let i = index"
+     [style.color]="myColor" class="coment" id="coment">
+     <p>#{{i+1}}</p>
+     <p>{{mas.chatDate | date:'short'}}</p>
+     <hr>
+     <div class="box">
+        <div class="profile">{{mas.userName}}</div>
+        
+     <div class="chat"><p>{{mas.chatMasseg}}</p></div>
+     <button class="btn btn-info" (click)="delChatItem(i)">X</button>
+    </div>
+  
+    </div>
+    
+   
+  </div>
+  <div *ngIf="answer">
+   
+
+<button  id="sendBTN" (click)="sendComent(comentText.value,comentName.value)" class="sendBTN">Send</button>
+
+<input type="text" class="comentName" placeholder="Name" #comentName>
+<input type="text" placeholder="Write some text" class="comentText" #comentText>
+</div>
+</div>
+
+
+
+
+
+
+

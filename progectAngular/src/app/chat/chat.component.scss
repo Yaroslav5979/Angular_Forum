@@ -1,0 +1,140 @@
+.boxChat{
+    background-color: #13B1D8;
+    width: 100%;
+    height:100vh;
+    background-image: url('src/assets/img/vetka_ptitsy_sovy_sharf_94136_1920x1080.jpg');
+    transition-duration: 2s;
+    
+    // div{
+    //     background-color:black;
+    //     color:white;
+    //     font-size: 13px;
+    //     width: 100%;
+    //     height: auto;
+    // }
+    #cont{
+        background-color:#6B8B98;
+        width: 50%;
+        height:100vh;
+        overflow: auto;
+        
+    }
+}
+.comentText{
+    width: 89%;
+    height: 50px;
+    font-size: 40px;
+    position: fixed;
+    bottom: 0px;
+    margin-left: 208px;
+
+}
+.sendBTN{
+    height: 50px;
+    font-size:28px;
+    position: fixed;
+    bottom:0px;
+    color: white;
+    background-color: #343A40;
+    border: #343A40;
+    width: 82px;
+}
+#backBTN{
+    color: white;
+    background-color: #343A40;
+    border: #343A40;
+    height: 50px;
+    font-size:28px;
+    position: fixed;
+}
+p{
+    margin-left: 20px;
+    font-size: 24px;
+     float: right
+}
+.coment{
+    border-radius: 10px;
+   
+}
+.coment{
+    border-radius: 70px 70px 70px 0px;
+    -moz-border-radius: 70px 70px 70px 0px;
+    -webkit-border-radius: 70px 70px 70px 0px;
+    border: 0px solid #000000;
+
+        color:white;
+        font-size: 13px;
+        width: 100%;
+        height: auto;
+}
+.box{
+    display: flex;
+    box-shadow: 37px 11px 14px 1px rgba(0, 0, 0, 0.75);
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    background-color: #13B1D8;
+    background-image: url('src/assets/img/teamwork.PNG');
+   
+}
+.chat{
+    width: 730px;
+    background-color: rebeccapurple;
+    height: 200px;
+    font-size: 18px;
+    p{
+        margin-top: 20px;
+        margin-right: 50px;
+        color: red;
+        float: left;
+    }
+}
+.answer{
+    color: white;
+    background-color: #343A40;
+    border: #343A40;
+    height: 50px;
+    font-size:28px;
+    border-radius: 100px;
+}
+.comentName{
+    background: black;
+    border: solid black 1px;
+    color: white;
+    position: fixed;
+    width: 175px;
+    height: 50px;
+    display: block;
+    margin-left: 82px;
+    margin-top: -50px;
+    font-size: 40px;
+}
+#logoName{
+    width: 100%;
+    height: 100vh;
+    background-color: #343A40;
+}
+#logoName{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-top: -937px;
+    opacity: 0.8;
+    
+    
+      
+}
+.nameButton{
+    margin: 0;
+    background: black;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: solid black 1px;
+    color: white; 
+}
+    
+

@@ -1,0 +1,27 @@
+<div class="main">
+  <div class="styleInput"> 
+  <input type="text" id="textThemes" placeholder="Title of topic" #textThemes value="Item">
+  </div> 
+    <button class="btn btn-dark" id="add" (click)="addThems(textThemes.value);
+     textThemes.value = 'New Them'">Create a theme</button>
+  <div class="topi">
+      <p>{{namess}}</p>
+    <ul>
+        <li *ngFor="let user of users; let i = index" >    
+       
+        <a routerLink= "/chat/{{i}}">
+        <h2>{{user.name}} <h3 routerLink="mas">Coments: {{user.topicChat.length}}</h3></h2></a>
+        <button (click)="remove(user.name)" class="btn btn-dark" *ngIf="removeTopic">X</button>
+        
+        </li>
+    </ul>
+  </div>
+ 
+</div>
+
+
+
+
+
+
+
